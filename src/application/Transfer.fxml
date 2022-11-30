@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Transferfound">
+   <children>
+      <ImageView fitHeight="155.0" fitWidth="203.0" layoutX="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../VAISHNAVI%20ALONI/OneDrive/Desktop/302439831_5516823528405743_3008495949047904372_n.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="54.0" layoutX="7.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../VAISHNAVI%20ALONI/OneDrive/Desktop/gallery_img9.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="132.0" text="Payee Account Number">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t8" layoutX="64.0" layoutY="175.0" />
+      <Label layoutX="106.0" layoutY="207.0" text="Amount">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t9" layoutX="64.0" layoutY="254.0" />
+      <Button layoutX="171.0" layoutY="324.0" mnemonicParsing="false" onAction="#transfer" style="-fx-background-color: #b73160;" text="Transfer" textFill="#0b0b0b">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

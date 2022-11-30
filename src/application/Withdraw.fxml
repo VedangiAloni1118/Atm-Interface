@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Entrywithdraw">
+   <children>
+      <ImageView fitHeight="78.0" fitWidth="324.0" layoutX="-8.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../VAISHNAVI%20ALONI/OneDrive/Desktop/AXIS%20BANNER.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="92.0" text="Enter Your Amount">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t5" layoutX="72.0" layoutY="175.0" />
+      <Button layoutX="109.0" layoutY="244.0" mnemonicParsing="false" onAction="#withdrawtransaction" style="-fx-background-color: #b73160;" text="Submit" textFill="#f8f4f4">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
